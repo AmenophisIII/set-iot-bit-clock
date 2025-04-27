@@ -7,7 +7,7 @@ RTC_DS1307.DateTime(
 5,
 27,
 16,
-2,
+6,
 0
 )
 basic.pause(1000)
