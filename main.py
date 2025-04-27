@@ -1,0 +1,12 @@
+def on_forever():
+    basic.show_number(RTC_DS1307.get_time(RTC_DS1307.TimeType.YEAR))
+    basic.pause(1000)
+    basic.show_number(RTC_DS1307.get_time(RTC_DS1307.TimeType.MONTH))
+    basic.pause(1000)
+    basic.show_number(RTC_DS1307.get_time(RTC_DS1307.TimeType.DAY))
+    basic.pause(1000)
+    basic.show_number(RTC_DS1307.get_time(RTC_DS1307.TimeType.HOUR))
+    basic.pause(1000)
+    basic.show_number(RTC_DS1307.get_time(RTC_DS1307.TimeType.MINUTE))
+    basic.pause(1000)
+basic.forever(on_forever)
