@@ -4,10 +4,10 @@ OLED.init(128, 64)
 OLED.writeStringNewLine("Setting time")
 RTC_DS1307.DateTime(
 2025,
-5,
-27,
-17,
-14,
+4,
+30,
+18,
+13,
 0
 )
 basic.pause(1000)
